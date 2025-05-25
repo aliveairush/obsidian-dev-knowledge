@@ -6,19 +6,34 @@
       {
         "id": "6c136190be12e138",
         "type": "tabs",
+        "dimension": 33.37182448036952,
         "children": [
           {
-            "id": "4e2a644e964ddb5b",
+            "id": "591d1b55e3e12956",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Welcome.md",
+                "file": "Vite.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Welcome"
+              "title": "Vite"
+            }
+          },
+          {
+            "id": "62953e27716b7a2e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Vite.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Vite"
             }
           }
         ]
@@ -26,15 +41,62 @@
       {
         "id": "1027fe0f502e2cc4",
         "type": "tabs",
+        "dimension": 66.62817551963049,
         "children": [
           {
-            "id": "7ebfd6435ac526b4",
+            "id": "413dde0c687e8654",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Ivy.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Ivy"
+            }
+          },
+          {
+            "id": "7ba893739862f96d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AOT vs JIT.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "AOT vs JIT"
+            }
+          },
+          {
+            "id": "a6568711f848134d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JIT compliation.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "JIT compliation"
+            }
+          },
+          {
+            "id": "17ba384a7497d71a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JIT compliation.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "JIT compliation"
             }
           }
         ]
@@ -94,7 +156,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 274.49999618530273
   },
   "right": {
     "id": "e6ce1229205a27c6",
@@ -110,7 +172,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Welcome.md",
+                "file": "Vite.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +182,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Welcome"
+              "title": "Backlinks for Vite"
             }
           },
           {
@@ -129,12 +191,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Welcome.md",
+                "file": "Vite.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Welcome"
+              "title": "Outgoing links from Vite"
             }
           },
           {
@@ -158,13 +220,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Welcome.md",
+                "file": "Vite.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Welcome"
+              "title": "Outline of Vite"
             }
           }
         ]
@@ -184,9 +246,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4e2a644e964ddb5b",
+  "active": "591d1b55e3e12956",
   "lastOpenFiles": [
-    "README.md",
-    "Welcome.md"
+    "Ivy.md",
+    "AOT vs JIT.md",
+    "JIT compliation.md",
+    "AOT compilation.md",
+    "Webpack.md",
+    "Vite.md",
+    "Rollup.md",
+    "Angular builders vite, webpack, esbuild.md",
+    "Esbuild.md",
+    "Angular.md",
+    "Angular 19.md",
+    "Angular changes. Version updates.md",
+    "Welcome.md",
+    "README.md"
   ]
 }
