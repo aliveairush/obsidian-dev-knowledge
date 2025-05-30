@@ -29,3 +29,5 @@ What plugin does
 - Uses esbuild - form typescript transpilation 
 
 So plugin acts as angular compiler
+
+[[Vite in angular configuration]]
