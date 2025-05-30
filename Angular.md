@@ -2,5 +2,7 @@
 
 - ## [[Angular builders vite, webpack, esbuild]]
 
-
 - [[Angular Web Components]]
+- [[Angular common mistakes]]
+
+

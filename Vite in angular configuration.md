@@ -1,4 +1,6 @@
-# DONT USE IT
+Angular after 17 v uses [[Esbuild]] [[Vite]]
+
+# DONT СONFIGURE IT MANUALLY
 It is quite pain in the ass to make it work using  angular even thou there is a plugin for vite+angular. 
 
 It is still quite not usable.
@@ -6,7 +8,7 @@ Simple action: create angular app using [[nx]] and you might see [[vite.config.t
 Angular will still would use [[angular-devkit]] with [[Webpack]]  , so ther is no point using it.
 
 
-# BUT WHAT IF I WANT VITE?
+# BUT WHAT 
 [[Analog js]] probably is the way , they handled configuring it and powered up with extra features.
 
 But seriously just use it for now in React app for example. 
