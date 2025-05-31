@@ -13,12 +13,66 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Console.md",
+                "file": "Angular.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Console"
+              "title": "Angular"
+            }
+          },
+          {
+            "id": "a31ec0d34d9f5fb1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Angular animations.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Angular animations"
+            }
+          },
+          {
+            "id": "a00c8d37c85cab02",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Simple app loading animation.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Simple app loading animation"
+            }
+          },
+          {
+            "id": "51d0b5e5d2694ab9",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Simple app loading animation conveyor.png"
+              },
+              "icon": "lucide-image",
+              "title": "Simple app loading animation conveyor"
+            }
+          },
+          {
+            "id": "39dc57f7cac048b8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Simple app loading animation.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Simple app loading animation"
             }
           },
           {
@@ -47,6 +101,100 @@
               },
               "icon": "lucide-file",
               "title": "Web development"
+            }
+          },
+          {
+            "id": "81dde36ec6bfdbcc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ideas.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Ideas"
+            }
+          },
+          {
+            "id": "c333fc97b7200808",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Personal web page site.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Personal web page site"
+            }
+          },
+          {
+            "id": "1803016f1fb7d33d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CSS.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CSS"
+            }
+          },
+          {
+            "id": "127b5e25de2df295",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Svg to css background image tool.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Svg to css background image tool"
+            }
+          },
+          {
+            "id": "c0fdc93e2b85c513",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CSS shapes.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CSS shapes"
+            }
+          },
+          {
+            "id": "f9378028fb7cde77",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "CSS LAYOUT USING SHAPES EXAMPLE 2.png"
+              },
+              "icon": "lucide-image",
+              "title": "CSS LAYOUT USING SHAPES EXAMPLE 2"
+            }
+          },
+          {
+            "id": "9b297924487e1879",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "CSS LAYOUT USING SHAPES EXAMPLE 1.png"
+              },
+              "icon": "lucide-image",
+              "title": "CSS LAYOUT USING SHAPES EXAMPLE 1"
             }
           },
           {
@@ -106,7 +254,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -227,13 +375,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Minify bundle size.md",
+                "file": "Simple app loading animation.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Minify bundle size"
+              "title": "Outline of Simple app loading animation"
             }
           }
         ],
@@ -253,15 +401,26 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e3f5652fc0f7e6a0",
+  "active": "a00c8d37c85cab02",
   "lastOpenFiles": [
-    "Welcome.md",
-    "Console.md",
-    "use package to install something temporarly.md",
-    "Minify bundle size.md",
-    "Frontend.md",
-    "Web development.md",
+    "Simple app loading animation conveyor.png",
+    "Simple app loading animation.md",
+    "Angular animations.md",
     "Angular.md",
+    "Console.md",
+    "Svg to css background image tool.md",
+    "CSS.md",
+    "Ideas.md",
+    "Personal web page site.md",
+    "Angular builders vite, webpack, esbuild.md",
+    "Frontend.md",
+    "CSS shapes.md",
+    "CSS LAYOUT USING SHAPES EXAMPLE 2.png",
+    "CSS LAYOUT USING SHAPES EXAMPLE 1.png",
+    "Web development.md",
+    "Minify bundle size.md",
+    "Welcome.md",
+    "use package to install something temporarly.md",
     "Angular common mistakes.md",
     "kill port in windows.md",
     "Vite.md",
@@ -271,15 +430,6 @@
     "Angular changes. Version updates.md",
     "Angular 19.md",
     "Angular server-side rendering.md",
-    "vite.config.ts.md",
-    "Angular builders vite, webpack, esbuild.md",
-    "NX.md",
-    "Bugs.md",
-    "Git.md",
-    "Angular Web Components.md",
-    "Lit.md",
-    "Cover information checklist.md",
-    "Angular Dependency Injection.md",
-    "Angular event replay.md"
+    "vite.config.ts.md"
   ]
 }

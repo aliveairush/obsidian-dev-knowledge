@@ -4,6 +4,9 @@
 
 
 - [[Minify bundle size]]
+## General
+- [[CSS]]
 
 ## TODO
 [[Cover information checklist]]
+

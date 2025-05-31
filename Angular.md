@@ -4,5 +4,6 @@
 
 - [[Angular Web Components]]
 - [[Angular common mistakes]]
+- [[Angular animations]]
 
 
