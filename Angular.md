@@ -7,3 +7,7 @@
 - [[Angular animations]]
 
 
+Angulare features
+- [[Angular Svg as template]]
+
+
