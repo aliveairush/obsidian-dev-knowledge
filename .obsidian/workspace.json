@@ -18,110 +18,82 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "TS Prettify.md",
+                    "file": "Angular.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "TS Prettify"
+                  "title": "Angular"
                 }
               },
               {
-                "id": "cdd66a53806987ab",
+                "id": "89cacf08eaaf4f5b",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "TS Prettify.md",
+                    "file": "Angular injection @SkipSelf.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "TS Prettify"
+                  "title": "Angular injection @SkipSelf"
                 }
               },
               {
-                "id": "369ffd65e6dc1d94",
+                "id": "81c8cb821ce9d2f7",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "TS Loose autocomplete.md",
+                    "file": "Angular injection @Self.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "TS Loose autocomplete"
+                  "title": "Angular injection @Self"
                 }
               },
               {
-                "id": "43238b894a2f9ed6",
+                "id": "8bd5becf50f847e8",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "TS Prettify.md",
+                    "file": "Angular 16.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "TS Prettify"
+                  "title": "Angular 16"
                 }
               },
               {
-                "id": "ee59c5bea7ae86b5",
+                "id": "32cc6966bcdb2db0",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "TS Exclude.md",
+                    "file": "Angular 15.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "TS Exclude"
+                  "title": "Angular 15"
                 }
               },
               {
-                "id": "6346920d88aee787",
+                "id": "ea9a33f9a72016bb",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "TS Pick Omit - Exclude extract.md",
+                    "file": "Ng OptimizedImage.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "TS Pick Omit - Exclude extract"
-                }
-              },
-              {
-                "id": "d863177f797fc9f4",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "TS Omit.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "TS Omit"
-                }
-              },
-              {
-                "id": "947179bc0896837d",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "TS Literal template.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "TS Literal template"
+                  "title": "Ng OptimizedImage"
                 }
               }
             ]
@@ -269,13 +241,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TS Prettify.md",
+                "file": "Angular prompts.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of TS Prettify"
+              "title": "Outline of Angular prompts"
             }
           }
         ],
@@ -295,36 +267,37 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4bda35aa12531c6d",
+  "active": "d90499111fd3023a",
   "lastOpenFiles": [
-    "TypeScript.md",
+    "Angular.md",
+    "Angular injection @SkipSelf.md",
+    "Angular injection @Self.md",
+    "Angular changes. Version updates.md",
+    "Angular 16.md",
+    "Angular 15.md",
+    "Ng OptimizedImage.md",
+    "NG Directive composition.md",
+    "Angular 14.md",
+    "Angular lifecycle hooks diagram.md",
+    "Angular Lifecycle hooks diagram.png",
+    "Frontend.md",
+    "Web development.md",
+    "ES5 vs ES6.md",
+    "Angular prompts.md",
+    "Angular host and host-context styling.md",
+    "TS Partial - just dont use question marks.md",
+    "Angular 17.md",
     "TS Prettify.md",
+    "TypeScript.md",
     "TS Exclude.md",
     "TS Mapping types.md",
-    "Angular prompts.md",
     "TS Loose autocomplete.md",
     "TS Pick Omit - Exclude extract.md",
     "TS Omit.md",
-    "TS Partial - just dont use question marks.md",
     "TS Value optional vs KeyOptional.md",
     "TS Literal template.md",
-    "Web development.md",
-    "Angular Svg as template.md",
-    "Propts.md",
-    "Angular 17.md",
     "Angular svg as template ex.png",
-    "Angular.md",
-    "CSS animation timeline.md",
-    "Angular scroll based animations.md",
-    "GSAP.md",
-    "Angular animations.md",
-    "CSS.md",
-    "Simple app loading animation.md",
     "Simple app loading animation conveyor.png",
-    "Console.md",
-    "Svg to css background image tool.md",
-    "Ideas.md",
-    "Personal web page site.md",
     "CSS LAYOUT USING SHAPES EXAMPLE 2.png",
     "CSS LAYOUT USING SHAPES EXAMPLE 1.png"
   ]

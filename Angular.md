@@ -7,7 +7,14 @@
 - [[Angular animations]]
 
 
-Angulare features
+## Angular core
+- [[Angular lifecycle hooks diagram]]
+- [[Angular injection @Self]]
+- [[Angular injection @SkipSelf]]
+
+
+## Angulare features
+- [[Angular host and host-context styling]]
 - [[Angular Svg as template]]
 
 
