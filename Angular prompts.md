@@ -10,5 +10,6 @@ If there is some other possible solutions.
 If you have need some more context ask 1-3 questions.
 
 Here is the question: 
+Explain hard moments at this code what should i know about it, what u find interesting in it
 ```
 

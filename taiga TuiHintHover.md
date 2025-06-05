@@ -1,0 +1,81 @@
+
+Most interisting in this directive is how it provides Driver (Plugin) for [[Taiga Hint]]
+
+This code   providers: [tuiAsDriver(TuiHintHover)] will mark TuiHintHover as Driver (Plugin) with type 'hint' and it will be added to drivers list in [[TuiHintDriver]]
+
+## Code 
+```ts
+@Directive({  
+    standalone: true,  
+    providers: [tuiAsDriver(TuiHintHover), TuiHoveredService],  
+    exportAs: 'tuiHintHover',  
+})  
+export class TuiHintHover extends TuiDriver {  
+    private readonly isMobile = inject(TUI_IS_MOBILE);  
+    private readonly el = tuiInjectElement();  
+    private readonly hovered$ = inject(TuiHoveredService);  
+    private readonly options = inject(TUI_HINT_OPTIONS);  
+    private visible = false;  
+    private readonly toggle$ = new Subject<boolean>();  
+    private readonly stream$ = merge(  
+        this.toggle$.pipe(  
+            switchMap((visible) =>  
+                this.isMobile  
+                    ? of(visible)  
+                    : of(visible).pipe(delay(visible ? 0 : this.tuiHintHideDelay)),  
+            ),  
+            takeUntil(this.hovered$),  
+            repeat(),  
+        ),  
+        this.hovered$.pipe(  
+            switchMap((visible) =>  
+                this.isMobile  
+                    ? of(visible)  
+                    : of(visible).pipe(  
+                          delay(visible ? this.tuiHintShowDelay : this.tuiHintHideDelay),  
+                      ),  
+            ),  
+            takeUntil(this.toggle$),  
+            repeat(),  
+        ),  
+    ).pipe(  
+        filter(() => this.enabled),  
+        map(  
+            (value) =>  
+                value &&  
+                (this.el.hasAttribute('tuiHintPointer') || !tuiIsObscured(this.el)),  
+        ),  
+        tap((visible) => {  
+            this.visible = visible;  
+        }),  
+    );  
+  
+    private readonly parent = inject(TuiHintHover, {  
+        optional: true,  
+        skipSelf: true,  
+    });  
+  
+    @Input()  
+    public tuiHintShowDelay: TuiHintOptions['showDelay'] = this.options.showDelay;  
+  
+    @Input()  
+    public tuiHintHideDelay: TuiHintOptions['hideDelay'] = this.options.hideDelay;  
+  
+    public readonly type = 'hint';  
+  
+    public enabled = true;  
+  
+    constructor() {  
+        super((subscriber) => this.stream$.subscribe(subscriber));  
+    }  
+  
+    public toggle(visible = !this.visible): void {  
+        this.toggle$.next(visible);  
+        this.parent?.toggle(visible);  
+    }  
+  
+    public close(): void {  
+        this.toggle$.next(false);  
+    }  
+}
+```

@@ -18,12 +18,180 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Angular.md",
+                    "file": "Taiga Hint.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "Angular"
+                  "title": "Taiga Hint"
+                }
+              },
+              {
+                "id": "c052c444dbffaeee",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "taiga TuiHintHover.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "taiga TuiHintHover"
+                }
+              },
+              {
+                "id": "7d16018744c6cb72",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "TuiHintDriver.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "TuiHintDriver"
+                }
+              },
+              {
+                "id": "150f496ad1f0dcea",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "TuiDriverDirective.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "TuiDriverDirective"
+                }
+              },
+              {
+                "id": "7fef27ee4a615e57",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "npm.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "npm"
+                }
+              },
+              {
+                "id": "5bf5314647d4d6ca",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "taiga TuiHintHover.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "taiga TuiHintHover"
+                }
+              },
+              {
+                "id": "1f0ab9afbd3da72c",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "TuiHintDriver.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "TuiHintDriver"
+                }
+              },
+              {
+                "id": "a271b65567bc6f6c",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "TuiDriverDirective.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "TuiDriverDirective"
+                }
+              },
+              {
+                "id": "e8d1f59602f83ac9",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "taiga tuiAsVehicle.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "taiga tuiAsVehicle"
+                }
+              },
+              {
+                "id": "601cf1033513cf89",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "taiga tuiAsRectAccessor.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "taiga tuiAsRectAccessor"
+                }
+              },
+              {
+                "id": "d6c7d4903b49ec61",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "DRY.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "DRY"
+                }
+              },
+              {
+                "id": "35874bc7c1109480",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Taiga TuiRectAccessor.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Taiga TuiRectAccessor"
+                }
+              },
+              {
+                "id": "ab9b414a5bb91a9d",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "npm.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "npm"
                 }
               },
               {
@@ -96,7 +264,8 @@
                   "title": "Ng OptimizedImage"
                 }
               }
-            ]
+            ],
+            "currentTab": 4
           },
           {
             "id": "e105654eef8cc636",
@@ -152,7 +321,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "#taiga",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -241,13 +410,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Angular prompts.md",
+                "file": "npm.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Angular prompts"
+              "title": "Outline of npm"
             }
           }
         ],
@@ -267,9 +436,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d90499111fd3023a",
+  "active": "7fef27ee4a615e57",
   "lastOpenFiles": [
+    "TuiDriver.md",
+    "TuiDriverDirective.md",
+    "TuiHintDriver.md",
+    "taiga TuiHintHover.md",
+    "Taiga Hint.md",
+    "taiga tuiAsVehicle.md",
     "Angular.md",
+    "Taiga UI.md",
+    "taiga tuiAsRectAccessor.md",
+    "DRY.md",
+    "Taiga TuiRectAccessor.md",
+    "Web development.md",
+    "Angular prompts.md",
+    "npm.md",
     "Angular injection @SkipSelf.md",
     "Angular injection @Self.md",
     "Angular changes. Version updates.md",
@@ -281,21 +463,8 @@
     "Angular lifecycle hooks diagram.md",
     "Angular Lifecycle hooks diagram.png",
     "Frontend.md",
-    "Web development.md",
     "ES5 vs ES6.md",
-    "Angular prompts.md",
     "Angular host and host-context styling.md",
-    "TS Partial - just dont use question marks.md",
-    "Angular 17.md",
-    "TS Prettify.md",
-    "TypeScript.md",
-    "TS Exclude.md",
-    "TS Mapping types.md",
-    "TS Loose autocomplete.md",
-    "TS Pick Omit - Exclude extract.md",
-    "TS Omit.md",
-    "TS Value optional vs KeyOptional.md",
-    "TS Literal template.md",
     "Angular svg as template ex.png",
     "Simple app loading animation conveyor.png",
     "CSS LAYOUT USING SHAPES EXAMPLE 2.png",
