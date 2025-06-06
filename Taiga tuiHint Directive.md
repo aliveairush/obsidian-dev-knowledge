@@ -102,3 +102,10 @@ TuiHintDriver is really interisting one , check its note
 ```
 
 [[taiga TuiHintHover]] we expose 2 TuiHintHover inputs by TuiHint component.
+
+## What is logic 
+
+TuiHintDirective does :
+- Initialize other directives by host directives
+- Gets polymotph component 
+- Drivers like [[taiga TuiHintHover]] can call toggle function by [[TuiDriverDirective]] . toggle functions add this TuiHint to [[taiga TuiHintService]]  hints list. This hint list then iterated in template by using [[polymorpheusOutlet]]

@@ -1,7 +1,33 @@
 
-Most interisting in this directive is how it provides Driver (Plugin) for [[Taiga Hint]]
 
-This code   providers: [tuiAsDriver(TuiHintHover)] will mark TuiHintHover as Driver (Plugin) with type 'hint' and it will be added to drivers list in [[TuiHintDriver]]
+Most interisting in this directive is how it provides Driver (Plugin) for [[Taiga tuiHint Directive]]
+
+This code   providers: [tuiAsDriver(TuiHintHover)] will mark TuiHintHover as Driver (Plugin) with type 'hint' and it will be added to drivers list in [[TuiDriverDirective]]]
+
+Also it provides [[TuiHoveredService]]
+
+## What it does
+It extends of TuiDriver (so it extends observable) and for that it has parent constuctor which accepts stream as parameter. So its [[pure observable-based state service]].
+And it immidiately subscribed. So when **stream$** (i would rename it to visibilityStream) emits value [[TuiDriverDirective]] will catch event and will toggle Vehicles with same type .
+
+
+### hint with inner hint
+When we hover on an item, parent hint should be visible too.
+```ts
+  
+    public toggle(visible = !this.visible): void {  
+        this.toggle$.next(visible);  
+        this.parent?.toggle(visible);  
+    }  
+  
+```
+
+## Cool code
+#cool-code
+
+Move it to another link [[rxjs mutually interraptable streams combination]]
+
+
 
 ## Code 
 ```ts
@@ -79,3 +105,18 @@ export class TuiHintHover extends TuiDriver {
     }  
 }
 ```
+
+
+
+#taiga-contribution 
+Add interface TuiHintHoverStrategy 
+and add custom classes TuiHintHoverMobileStraregy , and default WebStrategy
+with function delay. 
+
+And import     delay(this.strategy.delay(...)) ,     map(() => this.strategy.shouldShow(this.el))
+
+So we use [[Open Closed]] principle. Class is closed but open to modification, and each modification can be changed without touching class itselft
+
+#taiga-contribution 
+I would add option to disable parent propagation 
+

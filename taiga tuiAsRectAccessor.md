@@ -1,4 +1,4 @@
-It is a simple function for example used in [[Taiga Hint]]
+It is a simple function for example used in [[Taiga tuiHint Directive]]
 
 This function accepts some 
 
