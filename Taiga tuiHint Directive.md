@@ -1,4 +1,4 @@
-
+[[Taiga hint architecture]]
 Lets break down everything it has to offer
 
 ```ts

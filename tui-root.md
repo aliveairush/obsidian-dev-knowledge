@@ -1,0 +1,14 @@
+```html
+<div class="t-root-content"><ng-content /></div>  
+<ng-container *ngIf="top()">  
+    <tui-scroll-controls  
+        *ngIf="scrollbars"  
+        class="t-root-scrollbar"  
+    />  
+    <tui-popups />    <ng-content select="tuiOverContent" />  
+    <tui-dialogs />    <ng-content select="tuiOverDialogs" />  
+    <tui-alerts />    <ng-content select="tuiOverAlerts" />  
+    <tui-dropdowns />    <ng-content select="tuiOverDropdowns" />  
+    <tui-hints />    <ng-content select="tuiOverHints" />  
+</ng-container>
+```
