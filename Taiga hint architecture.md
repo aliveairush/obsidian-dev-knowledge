@@ -1,10 +1,10 @@
 
-- Tui hints are initialized in [[tui-root]] as `<tui-hints />`
-- [[TuiHintComponent]] 
+- Tui hints are initialized in [[tui-root]] as `<tui-hints />` so it becomes [[portal]] container 
+- [[TuiHintsComponent]] 
 	- subscribes to hints$ from [[taiga TuiHintService]]
 	- show them in foreach in tempalte
-- When we add [[Taiga tuiHint Directive]] to a component. We actually marking passed polymorpheus component as  [[taiga tuiAsVehicle]] 
-- And when [[taiga TuiHintHover]] will call onHover  [[taiga TuiHintService]] by subscribtion will toggle all assosiated vehicles to toggle(), when toggle(true) happens Hint will be added to [[taiga TuiHintService]]  and [[TuiHintComponent]] will recevice it By observable.
+- When we add [[Taiga tuiHint Directive]] to element. We actually marking content as polymopheus component . And  our hint  is  [[taiga tuiAsVehicle]] . And providing  [[TuiHintCompnent]] for hint view.
+- And when [[taiga TuiHintHover]] emits value ,  [[TuiHintDriver]] will toggle all assosiated vehicles to toggle(), when toggle(true) happens Hint will be added to [[taiga TuiHintService]]  list, and [[TuiHintsComponent]] will recevice it By subscribing to observable.
 
 By that Taiga gets very flexible architecture.
 
@@ -24,4 +24,11 @@ We need to deep dive in [[TuiAnimatedParent Directive]]
 </div>
 ```
 - When polymorpheusOutlet changes , [[TuiAnimatedParent Directive]] checks it using [[MutationObserver]] . If content changes it deletes tui-enter class. And nominates content for deleting, (actual removal is not happening)
-- 
+
+## Lets compare it with Angular Material
+[[Angular Material]]
+The main limitaion is Material hint only supports string as input.
+
+If you  need to make it  more Generic you will have to craete your custom overlays. Or use some 3rd party library.
+
+And you will see fat directive almoust 1000 lines  of code. Because it contains everything inside one directive.

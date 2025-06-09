@@ -1,4 +1,10 @@
+The name is quite missleading. it would be better if was called TuiLeaveAnimated
 
+This directive patches default renderer. 
+And calling remove element only when animation ends. 
+So this TuiAnimated only controls node destruction.
+
+## In details
 1) Getting instance of renderer to access his private methods (This is not angular way to do it , becouse it  prone to errors if some angular verion will change inner logic, it is even possible that they wont describe it in changelog, because it is private logic)
 ```ts
     private readonly renderer = inject(ViewContainerRef)._hostLView?.[11];  
@@ -27,9 +33,73 @@ const {removeChild, data} = renderer;
 
 5) afterNextRender(() => { ...logic })
 
-[[afterNextRender]]
+[[afterNextRender]] Adding hook that will be executed after compoenent fully rendered. Consider it like last method that will be executed in the component after initialization.
 
 
+5.0) this.remove(); 
+Just rtemoving tui-enter class of the element
+
+5.1) `renderer.removeChild = (parent: Node, el: Node, host?: boolean) => {`
+rewriting logic that will be applied on child remove on the host.
+
+5.2) `const remove = (): void => removeChild.call(renderer, parent, el, host);`
+Saving default removing function so we can call it later on.
+
+5.3) `const elements: Element[] = data[TUI_LEAVE];`
+Accessing all elements that are nominated for removing
+
+5.4) `const element = elements.find((leave) => el.contains(leave));`
+Find exact element that is being removed
+
+5.5 ) `const {length} = element?.getAnimations() || [];`
+Find length of animations
+
+5.6) 
+```ts
+if (!element) {  
+    remove();  
+  
+    return;  
+}
+```
+If no element was found just call standart remove() logic saved in 5.2 
+
+5.7) `elements.splice(elements.indexOf(element), 1);`
+Removing element from 'elements' list
+
+5.8) `element.classList.add(TUI_LEAVE);`
+Adding to deleting element class tui-leave
+
+5.9 ) `const animations = element.getAnimations();`
+once again getting animations,  they should be updated because we added new class to it
+
+5.10) `const last = animations[animations.length - 1];`
+Getting only last animation
+
+5.11) 
+```ts
+const finish = (): void => {  
+    if (!parent || parent.contains(el)) {  
+        remove();  
+        this.app.tick();  
+    }  
+};
+```
+Creating function  that checks if parent not exists or parent contains child
+we call default remove logic.
+And calling change detectin 
+
+5.12 )
+```ts
+if (animations.length > length && last) {  
+    last.onfinish = finish;  
+    last.oncancel = finish;  
+} else {  
+    remove();  
+}
+```
+// We verify that current animation list is greater then before when we have not added tui-leave class.  
+// If its true , we add function to remove element only when animation onfinish called or oncancel
 
 
 ## CODE

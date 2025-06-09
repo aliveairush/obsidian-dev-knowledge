@@ -13,21 +13,21 @@
             "dimension": 73.77873563218391,
             "children": [
               {
-                "id": "1999d59012d86163",
+                "id": "03fc8f90a6d2779f",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Taiga tuiHint Directive.md",
+                    "file": "Taiga UI.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "Taiga tuiHint Directive"
+                  "title": "Taiga UI"
                 }
               },
               {
-                "id": "11e87ce8a1275077",
+                "id": "6dd5c4a3e582771e",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
@@ -41,129 +41,49 @@
                 }
               },
               {
-                "id": "c090c54c7a729743",
+                "id": "0539a0f958dd80e3",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "TuiAnimatedParent Directive.md",
+                    "file": "taiga TuiHintService.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "TuiAnimatedParent Directive"
+                  "title": "taiga TuiHintService"
                 }
               },
               {
-                "id": "03fc8f90a6d2779f",
+                "id": "9a655cf6ed192e0c",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "TuiAnimated.md",
+                    "file": "portal.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "TuiAnimated"
+                  "title": "portal"
                 }
               },
               {
-                "id": "df3afb450f2eacd9",
+                "id": "9f635db83d80ab62",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "afterNextRender.md",
+                    "file": "kill port in windows.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "afterNextRender"
-                }
-              },
-              {
-                "id": "dd356a4500107b0a",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "TuiHintComponent.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "TuiHintComponent"
-                }
-              },
-              {
-                "id": "d9f5ed188d8fcb5c",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "tui-root.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "tui-root"
-                }
-              },
-              {
-                "id": "814622af526f01bb",
-                "type": "leaf",
-                "state": {
-                  "type": "graph",
-                  "state": {},
-                  "icon": "lucide-git-fork",
-                  "title": "Graph view"
-                }
-              },
-              {
-                "id": "c7d7ad939fad90a5",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "taiga TuiHintHover.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "taiga TuiHintHover"
-                }
-              },
-              {
-                "id": "cb8fd1d99ac8a851",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Personal web page site.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "Personal web page site"
-                }
-              },
-              {
-                "id": "3f7766667f63fae0",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "CSS shapes.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "CSS shapes"
+                  "title": "kill port in windows"
                 }
               }
             ],
-            "currentTab": 4
+            "currentTab": 1
           },
           {
             "id": "e78bfcdfd2c6c1c6",
@@ -219,7 +139,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "#taiga",
+                "query": "Taiga hint architecture",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -240,7 +160,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -340,22 +261,27 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "df3afb450f2eacd9",
+  "active": "6dd5c4a3e582771e",
   "lastOpenFiles": [
-    "afterNextRender.md",
-    "TuiAnimated.md",
-    "TuiAnimatedParent Directive.md",
+    "Taiga UI.md",
+    "Taiga tuiHint Directive.md",
     "Taiga hint architecture.md",
-    "TuiHintComponent.md",
+    "taiga TuiHintService.md",
+    "portal.md",
+    "taiga TuiHintHover.md",
+    "TuiAnimated.md",
+    "TuiHintsComponent.md",
+    "taiga tuiAsRectAccessor.md",
+    "kill port in windows.md",
+    "afterNextRender.md",
+    "TuiAnimatedParent Directive.md",
     "CSS shapes.md",
     "Personal web page site.md",
     "Ideas.md",
     "Angular prompts.md",
     "tui-root.md",
-    "Taiga tuiHint Directive.md",
     "TuiHoveredService.md",
     "tuiZoneOptimizer().md",
-    "taiga TuiHintHover.md",
     "pure observable-based state service.md",
     "Propts.md",
     "rxjs mutually interraptable streams combination.md",
@@ -363,11 +289,6 @@
     "TuiDriver.md",
     "TuiDriverDirective.md",
     "TuiHintDriver.md",
-    "taiga tuiAsVehicle.md",
-    "Angular.md",
-    "Taiga UI.md",
-    "taiga tuiAsRectAccessor.md",
-    "DRY.md",
     "Angular Lifecycle hooks diagram.png",
     "Angular svg as template ex.png",
     "Simple app loading animation conveyor.png",
