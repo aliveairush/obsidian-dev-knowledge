@@ -1,6 +1,10 @@
 All refernce and analys  on taiga v4.39.2
 
 
-- [[Taiga hint architecture]] 
+- CDK
+	- 
 - 
-- 
+- CORE
+	- [[Taiga hint architecture]] 
+	- [[Taiga dropdowns architecture]]
+	- 
