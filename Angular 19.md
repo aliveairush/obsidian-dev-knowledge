@@ -6,3 +6,7 @@ In version 19, we’re elevating [[Angular server-side rendering]] to another le
 
 ## Event replay by default
 [[Angular event replay]]
+
+# Experemental
+
+- [[Angular resource, rxResource]]
