@@ -1,7 +1,7 @@
 It is host element for cretaed portal using [[TuiDropdownDirective]]
 
 What it does: 
-- It porvides TuiDropdownService as TuiPortalService for DI tree.
+- It porvides [[TuiDropdownService]] as TuiPortalService for DI tree.
 - And just makes placeholder by <ng-container #viewContainer />
 
 ```ts
@@ -15,3 +15,12 @@ What it does:
 })  
 export class TuiDropdowns extends TuiPortals {}
 ```
+
+Extends [[TuiPortals]]
+
+`<ng-container #viewContainer />` this line is needed for 
+```ts
+@ViewChild('viewContainer', {read: ViewContainerRef})  
+private readonly vcr!: ViewContainerRef;
+```
+

@@ -1,7 +1,28 @@
 
 
+
+
 ## Code
 ```ts
+@Directive({  
+    standalone: true,  
+    selector: '[tuiDropdown]:not(ng-container):not(ng-template)',  
+    providers: [  
+        tuiAsRectAccessor(TuiDropdownDirective),  
+        tuiAsVehicle(TuiDropdownDirective),  
+    ],  
+    exportAs: 'tuiDropdown',  
+    hostDirectives: [  
+        TuiDropdownDriverDirective,  
+        {  
+            directive: TuiDropdownPosition,  
+            outputs: ['tuiDropdownDirectionChange'],  
+        },  
+    ],  
+    host: {  
+        '[class.tui-dropdown-open]': 'ref()',  
+    },  
+})
 export class TuiDropdownDirective  
     implements  
         AfterViewChecked,  
